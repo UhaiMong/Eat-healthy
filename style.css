@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #575757;
+}
+
+.headerSection h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: orange;
+}
+
+p {
+    color: #828282;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.btn {
+    background-image: linear-gradient(#FB9149, #FD5131);
+    border: none;
+    padding: 10px;
+    border-radius: 19px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#header {
+    word-spacing: 0.5em;
+    margin-top: 100px;
+}
+
+.half .btn {
+    margin-top: 30px;
+}
+
+.half p {
+    margin-top: 30px;
+}
+
+.headerSection {
+    background-image: url(images/backCover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.flexScreen {
+    display: flex;
+    width: 100%;
+}
+
+.half {
+    width: 80%;
+    margin: 50px;
+}
+
+.aboutme {
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left {
+    padding: 100px;
+}
+
+.left .btn {
+    margin-top: 100px;
+}
+
+.trumpCard {
+    display: flex;
+    box-shadow: 1px 1px 10px grey;
+    margin: 30px 20px;
+    border-radius: 9px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.recipes-div {
+    border-radius: 12px;
+    box-shadow: 1px 0px 9px grey;
+    padding: 30px;
+    margin: 40px;
+    width: 45%;
+    height: 35%;
+    box-sizing: border-box;
+}
+
+.recipes {
+    padding: 20px;
+    text-align: center;
+}
+
+.recipes p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.recipes-div img {
+    width: 600px;
+    display: inline-block;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.trumpCard h3 {
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer h3 {
+    margin-top: 30px;
+}
+
+footer h3 span {
+    color: #FB9149;
+}
